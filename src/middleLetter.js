@@ -1,5 +1,9 @@
 'use strict';
 
 function middleLetter(letter) {
-  return 'A';
+  if (letter.length > 1) {
+    return letter;
+  } else {
+    return 'A'; 
+  };
 };
