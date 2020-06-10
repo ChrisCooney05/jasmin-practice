@@ -1,0 +1,26 @@
+{
+  "name": "jasmine-practice",
+  "version": "1.0.0",
+  "description": "practice file for jasmin syntax",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisCooney05/jasmin-practice.git"
+  },
+  "author": "chrisCooney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisCooney05/jasmin-practice/issues"
+  },
+  "homepage": "https://github.com/ChrisCooney05/jasmin-practice#readme"
+}
