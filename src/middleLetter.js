@@ -1,9 +1,10 @@
 'use strict';
 
-function middleLetter(letter) {
-  if (letter.length > 1) {
-    return letter;
+function middleLetter(word) {
+  let i = word.length
+  if (i % 2 === 1) {
+    return word[Math.floor(i / 2)];
   } else {
-    return 'A'; 
-  };
+    return word[(i / 2)-1] + word[i / 2];
+  }
 };
